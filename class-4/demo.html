@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Styling Demo</title>
+  <style>
+    body {
+      margin-bottom: 400px
+    }
+  </style>
+</head>
+<body>
+  <h2>Font Size</h2>
+  <h4>Absolute units</h4>
+  <p style="font-size: 8px">1 px is 1/96th of an inch, NOT the pixel of the screen of the device you're using to view</p style="font-size:">
+  <p style="font-size: 1cm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia eveniet officiis.</p>
+  <h4>Relative Units</h4>
+  <p style="font-size:50px;border: solid black 0.5em">em is relative to the font-size of that element</p>
+  <p style="font-size: 2rem">If the root element's font-size is 16px, then 2rem is 32px</p>
+
+  <h2>Color Demo</h2>
+  <p style="color:tomato">Predefined color names</p>
+  <p style="color:#0590FF">Hex color code</p>
+  <p style="color:rgb(0,255,0)">RGB value</p style="color:rgb(0,255,0)">
+
+  <h2>Text Decoration</h2>
+  <p style="text-decoration:underline;">Underline</p>
+  <p style="text-decoration:overline;">Overline</p>
+  <p style="text-decoration:line-through;">Line-through</p>
+
+  <h2>Width Demo</h2>
+  <div style="width:200px; background-color:violet">Pixel width</div>
+  <div style="width:50%; background-color:limegreen">Percentage units is relative to the parent element</div>
+  <div style="width:3em; background-color:darkcyan">em width</div>
+
+  <h2>Height Demo</h2>
+  <div style="height:200px; background-color:violet">Pixel height</div>
+  <div style="height:30vh; background-color:limegreen">vh relative to the viewport height</div>
+  <div style="height:3em; background-color:darkcyan">em height</div>
+
+  <h2>Text-Align</h2>
+  <div style="border: solid black 2px">
+    <p style="text-align:left">Lorem ipsum dolor sit amet.</p>
+    <p style="text-align:right">Lorem ipsum dolor sit amet.</p>
+    <p style="text-align:center">Lorem ipsum dolor sit amet. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolores molestiae dolorem laborum voluptatem suscipit?</p>
+    <p style="text-align:justify">Lorem ipsum dolor sit amet. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolores molestiae dolorem laborum voluptatem suscipit?</p>
+  </div>
+
+  <h2>Opacity/Transparency Demo</h2>
+  <div style="opacity:0.5;background-color:cyan">50% Opacity</div>
+  <div style="opacity:1;background-color:cyan">100% Opacity</div>
+
+  <h2>Background</h2>
+  <div style="background-color:orange">Background Color</div>
+  <div style="background-image: url('sunset.jpeg');height:50vh;background-repeat:no-repeat;background-size: 100% 100%">Backgound Image</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+/* select all elements */
+* {
+  color: olive;
+}
+
+/* tag selector */
+body {
+  margin-bottom: 400px
+}
+
+/* class selector */
+.underline {
+  text-decoration: underline
+}
+.overline {
+  text-decoration: overline
+}
+/* this overrides becuase of cascading */
+.line-through {
+  text-decoration: line-through
+}
+
+/* ids are more specific than a class */
+#align-parent {
+  margin: 10px;
+  margin-left: 12px;
+  padding: 5px;
+  border: solid darkred 5px;
+}
+
+/* 
+  this declaraction overrides any other declaration 
+  you should only use this as a last resort because someone 
+  else would have trouble styling those elements
+*/
+.align-parent {
+  border: solid black 5px !important;
+}
+
+div p {
+  color: yellowgreen;
+}
+
+[href="http://google.ca"] {
+  color: red;
+}
+
+/* select <p> within a <div> with a class of special */
+div.special p { }
+
+/* select <li> within a <ul> with a class of special */
+ul.special li { }
+
+/* select all <span> and <p> */
+span, p { }
+
+/* select all <a> that are a direct child of the id "container" */
+#container > a { }
