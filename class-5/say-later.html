@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Say Later</title>
+</head>
+<body>
+  <h1 id="welcome"></h1>
+  <script>
+    function sayLater(string) {
+      setTimeout(() => {
+        document.getElementById('welcome').innerText = string
+      }, 5000)
+    }
+  </script>
+</body>
+</html>
