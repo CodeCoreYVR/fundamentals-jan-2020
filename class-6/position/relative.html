@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Static</title>
+  <style>
+    .parent {
+      border: 1px solid black;
+      height: 300px;
+      width: 300px;
+    }
+    .child {
+      height: 200px;
+      width: 200px;
+      background-color: cyan;
+      position: relative;
+      left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- 
+    Relative is positioned relative to its normal (static) position
+    We can have top, left, right, or bottom properties that are 
+    relative to its normal (static) position
+   -->
+  <div class="parent">
+    <div class="child"></div>
+  </div>
+</body>
+</html>

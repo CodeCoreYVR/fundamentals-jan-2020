@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three Columns</title>
+  <style>
+    .column {
+      display: inline-block;
+      width: 33.33%;
+      height: 100vh;
+    }
+    .blue { background-color: blue}
+    .purple { background-color: purple}
+    .red { background-color: red}
+    body { 
+      font-size: 0; /* inline-block whitespace issue */
+    }
+  </style>
+</head>
+<body>
+  <div class="row">
+    <div class="column blue"></div>
+    <div class="column purple"></div>
+    <div class="column red"></div>
+  </div>
+</body>
+</html>

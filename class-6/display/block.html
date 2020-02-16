@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Block</title>
+  <style>
+    a {
+      /* height, width, top and bottom margins don't affect inline elements */
+      height: 5000px;
+      width: 5000px;
+      margin: 30px
+    }
+
+    /* default for anchor display is inline */
+  </style>
+</head>
+<body>
+  <!-- 
+    Paragraphs by default are set to display: block <p> will always start on a new line
+   -->
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam omnis, <a>THIS IS AN INLINE LINK</a> sequi iure nobis recusandae quas saepe? Aut repudiandae quia nostrum.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam omnis, sequi iure nobis recusandae quas saepe? Aut repudiandae quia nostrum.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam omnis, sequi iure nobis recusandae quas saepe? Aut repudiandae quia nostrum.
+  </p>
+</body>
+</html>
