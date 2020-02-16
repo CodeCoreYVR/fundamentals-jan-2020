@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pizza Order Form</title>
+    <link rel="stylesheet" href="joe-pizza.css">
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous">
+    </script>
+    <script src="./app.js"></script>
+    <script src="./jquery-app.js"></script>
+</head>
+<body>
+    <header></header>
+        <h1 class="head">Joe's Pizza</h1>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="">Order Online</a></li>
+                <li><a href="">Locations</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+        <img src="pizza-banner.jpg" alt="Pepperoni Pizza">
+    </header> 
+    <h2 class="head">Please Enter Your Contact Information</h2>  
+    <div class="center">
+        <div class="linepad">
+            <label class="contact">Username</label>
+            <input type="text"><br>
+        </div>
+        <div class="linepad">
+            <label class="contact">Password</label>
+            <input type="password"><br>
+        </div>
+        <div class="linepad">
+            <label class="contact">Email</label>
+            <input type="email"><br>
+        </div>    
+        <div class="linepad">
+            <label class="contact">Address</label>
+            <input type="text"><br>
+        </div>
+        <div class="linepad">
+            <label class="contact">City</label>
+            <input type="password"><br>
+        </div>
+        <div class="linepad">
+            <label class="contact">Postal Code</label>
+            <input type="email"><br>
+        </div>    
+        <div class="linepad">
+            <label class="contact">Phone Number</label>
+            <input type="text"><br>
+        </div>  
+        <div class="linepad">
+            <label class="contact">Comments</label>
+            <textarea rows="4" cols="20%"></textarea><br>
+         </div>  
+    </div>
+
+    <h2 class="head">Customize Your Pizza</h2>
+   <div class="center">
+        <h3>Crust and Sauce</h3>
+            <div>
+                <input class="radio" type="radio" name="crust" value="original" checked>
+                <label class="crust" for="original">Original Hand Tossed</label><br>
+                <input class="radio" type="radio" name="crust" value="cheese">
+                <label class="crust" for="cheese">Cheese Stuffed Hand Tossed</label><br>
+                <input class="radio" type="radio" name="crust" value="thin">  
+                <label class="crust" for="thin">Classic Thin</label><br>
+                <input class="radio" type="radio" name="crust" value="flatbread">  
+                <label class="crust" for="flatbread">Flatbread</label><br>
+                <input class="radio" type="radio" name="crust" value="thin">   
+                <label class="crust" for="gf">Gluten Free</label><br><br>
+            </div>
+            <div class="linepad">
+                <label class="size">Size</label>
+                <select class="crustsize" name="size">
+                    <option value="Large">16" Large</option>
+                    <option value="Medium">14" Medium</option>
+                    <option value="Small">12" Small</option>
+                </select>
+            </div>
+            <div class="linepad">
+                    <label class="size">Sauce</label>
+                    <select class="crustsize" name="size">
+                        <option value="sdtomato">Sun-Dried Tomato</option>
+                        <option value="pesto">Pesto</option>
+                        <option value="marinara">Marinara</option>
+                        <option value="ranch">Ranch</option>
+                        <option value="alfredo">Alfredo</option>
+                        <option value="bbq">Barbeque</option>
+                        <option value="garlic">Garlic</option>
+                    </select><br>
+                </div>
+        <h3>Choose Your Toppings</h3>
+        <h4>Limit 8 Toppings</h4>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Vegetables</td>
+                            <td>Meats</td>
+                        </tr>
+                    </thead>
+                        <tr>
+                            <td>
+                                <input class="radio" type="checkbox" value="tomatoes">
+                                <label class="crust" for="tomatoes">Tomatoes</label><br>
+                                <input class="radio" type="checkbox" value="ronions">
+                                <label class="crust" for="ronions">Red Onions</label><br>
+                                <input class="radio" type="checkbox" value="wonions">  
+                                <label class="crust" for="wonions">White Onions</label><br>
+                                <input class="radio" type="checkbox" value="peppers">   
+                                <label class="crust" for="peppers">Bell Peppers</label><br>
+                                <input class="radio" type="checkbox" value="mushrooms">
+                                <label class="crust" for="mushrooms">Mushrooms</label><br>
+                                <input class="radio" type="checkbox" value="pineapples">
+                                <label class="crust" for="pineapples">Pineapples</label><br>
+                                <input class="radio" type="checkbox" value="olives">  
+                                <label class="crust" for="olives">Black Olives</label><br>
+                                <input class="radio" type="checkbox" value="spinach">   
+                                <label class="crust" for="spinach">Spinach</label><br>
+                                <input class="radio" type="checkbox" value="lettuce">
+                                <label class="crust" for="lettuce">Lettuce</label><br>
+                            </td>
+                            <td>
+                                <input class="radio" type="checkbox" value="bacon">
+                                <label class="crust" for="bacon">Bacon</label><br>
+                                <input class="radio" type="checkbox" value="pepperoni">  
+                                <label class="crust" for="pepperoni">Pepperoni</label><br>
+                                <input class="radio" type="checkbox" value="ham">   
+                                <label class="crust" for="ham">Ham</label><br>
+                                <input class="radio" type="checkbox" value="chicken">  
+                                <label class="crust" for="chicken">Chicken</label><br>
+                                <input class="radio" type="checkbox" value="steak">   
+                                <label class="crust" for="steak">Steak</label><br>
+                                <input class="radio" type="checkbox" value="anchovies">   
+                                <label class="crust" for="anchovies">Anchovies</label><br>
+                            </td>
+                        </tr>
+                </table>
+                <br><br>
+            </div>
+            
+   </div> 
+   <br>
+    <form>
+        <input href="" class="submit" type="submit" value="Submit"><br>
+    </form>
+        <footer>&copy 2018 Joe Pizzaman. All Rights Reserved.</footer>
+</body>
+</html>
