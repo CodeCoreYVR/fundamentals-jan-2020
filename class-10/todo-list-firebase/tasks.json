@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "1": {
+      "name": "something",
+      "isComplete": false
+    },
+    "2": {
+      "name": "something else",
+      "isComplete": false
+    }
+  }
+}
